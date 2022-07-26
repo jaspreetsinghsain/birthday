@@ -1,0 +1,46 @@
+body{
+  background-image: url('../imiages/background.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 2000px;
+  width: 414px;
+  background-size: cover;
+  background-color: pink;
+  margin: 0;
+  text-align: center;
+  font-family: 'Sacramento', cursive;
+}
+.pic{
+  position: absolute;
+  top: 45em;
+  left: 15em;
+}
+.pera{
+  height: 2000px;
+
+  font-size: 80px;
+  position: absolute;
+  top: 15em;
+
+}
+p{
+  color: white;
+}
+.wish{
+  color: white;
+  text-align: center;
+  font-size: 80px;
+  position: absolute;
+  left: 3em;
+}
+video{
+  display: block;
+  position: absolute;
+  width: 60em;
+  right: 1em;
+
+}
+
+/*img{
+  position:absolute;
+}*/

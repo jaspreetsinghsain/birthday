@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>happy birthday</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,300&family=Sacramento&display=swap" rel="stylesheet">
+link
+    <script>
+      var i = 0; 			// Start Point
+      var images = [];	// Images Array
+      var time = 5000;	// Time Between Switch
+
+      // Image List
+      images[0] = "imiages/i1.png";
+      images[1] = "imiages/i2.png";
+      images[2] = "imiages/i3.png";
+      images[3] = "imiages/i4.png";
+      images[4] = "imiages/i5.png";
+      images[5] = "imiages/i6.png";
+
+      // Change Image
+      function changeImg(){
+      	document.slide.src = images[i];
+
+      	// Check If Index Is Under Max
+      	if(i < images.length - 1){
+      	  // Add 1 to Index
+      	  i++;
+      	} else {
+      		// Reset Back To O
+      		i = 0;
+      	}
+
+      	// Run function every x seconds
+      	setTimeout("changeImg()", time);
+      }
+      window.onload = changeImg;
+
+
+    </script>
+  </head>
+
+  <body>
+    <audio controls loop>
+      <img src="https://giphy.com/embed/UpDIwtgx0fU4pZfHfM" width="480" height="200" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/stickers/flowers-floral-colourful-UpDIwtgx0fU4pZfHfM">via GIPHY</a></p>" alt="">
+
+      <source src="music\Happy Birthday To You ! Instrumental ! Background Music.mp3" type="audio/mp3" >
+
+    </audio>
+    <div class="wish">
+    <h2>happy birthday</h2>
+    <h1>yogita</h1>
+
+    </div>
+
+    <div class="pic">
+      <img name="slide" width="500" height="500" />
+
+    </div>
+    <div class="pera">
+      <p>Happy Birthday, Yogita. You are the sweetest friend I have.A birthday wish for you: whatever you ask for, you will receive; whatever you seek, you will find; whatever you desire, you will have on your birthday and forever. bus ab meri english khatam ho gai .tere liye koi gift nai mill para tha to mene ye website bana di tere liye kyonki mai web devlopper hun na par  iska matlab ye nai h ki tu mujhe mere birthday pe ayurvedic khaade gift kar de. hope you like the gift.Tereko letter b bhejna tha  par meri writting badiaa nai h na tereko mje nai aate.isme dekh kitna badiaa font h teri makup wali shakal se b badiaa haan natural wale  face se kam sundar jarur h .boot mehnaat aur time lagta h wesite banane me isliye birthday party mat bhool jana .Ok tata have a wonderfull birthday</p>
+
+    </div>
+
+
+  </body>
+</html>
